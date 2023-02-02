@@ -1,6 +1,7 @@
 version: "3"
 services:
   wp:
+    build: .
     image: wpp:latest
     ports:
      - "5000:5000"
